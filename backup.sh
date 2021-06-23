@@ -1,9 +1,5 @@
 #!/usr/bin/bash
 
-# DEST_DIR=$1
-
-# EXCLUDED_PATTERN="**.NEF"
-
 function get_date_formatted {
   echo $(date +%Y%m%dT%H%M%S)
 }
