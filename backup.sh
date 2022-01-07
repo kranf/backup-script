@@ -8,8 +8,8 @@ function usage () {
   echo "./$(basename $0) -i include.lst [-e exclude.lst] -d destdir"
   echo "  -h    print usage"
   echo "  -i    path to the list of directories to backup"
-  echo "  -e    path the list of excluded patterns as supported by rsync"
-  echo "  -d    path the backup destination dir"
+  echo "  -e    path to the list of excluded patterns as supported by rsync"
+  echo "  -d    path to the backup destination dir"
 }
 
 while getopts "hi:e:d:" args; do
