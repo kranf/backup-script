@@ -7,14 +7,14 @@ Each backup has a date: ```directory-yyyyMMddTHHmm```
 ```directory-current``` repertory is a link pointing to the latest backup.
 
 New backup hard-links non modified files to ```directory-current```
-
+```
 |-destdir
     |-_install-20210623T212917
     |-_install-current -> _install-20210623T212917
     |-Montage-20210623T213026
     |-Montage-current -> Montage-20210623T213026
     |-Music-20210623T223151
-    |-Music-current -> Music-20210623T223151
+    |-Music-current -> Music-20210623T223151```
 
 ## How to use
 
